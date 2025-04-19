@@ -1,9 +1,25 @@
+/* Importing Roboto font. */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 * {
     font-family: 'Roboto', Verdana, sans-serif;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* Code for header */
+
+.webpage {
+    background-color: #1f2937;
 }
 
 ul {
@@ -23,15 +39,67 @@ a {
     justify-content: space-around;
     height: 50px;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .header-logo{
     font-weight: bold;
     font-size: 24px;
+    margin-right: 110px;
 }
 
 .header-right {
     display: flex;
     gap: 15px;
     font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* Code for hero text and image section */
+
+.hero-space {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    flex: auto;
+}
+
+.hero-text-space {
+ width: 300px;
+}
+
+.hero-text {
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hero-subtext {
+    margin:10px 0px;
+    color: #e5e7eb;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    padding: 5px 25px;
+    border-color: transparent;
+    border-radius: 10px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.hero-image-space{
+    width: 350px;
+    background-color: red;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#6d747d;
+    color: #f9faf8;
 }
