@@ -104,7 +104,7 @@ a {
 /* Testimonial section */
 
 .review {
-    height: 500px;
+    height: auto;
     background-color: #ffffff;
 }
 
